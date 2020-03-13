@@ -1,11 +1,15 @@
+To copy repository from Github to local, make changes on locan and push changes back to Github
 $ git clone https://github.com/Bella-Hub92/LearnGit.git
 $ git init
 $ git remote add origin https://github.com/Bella-Hub92/LearnGit.git
 $ git checkout -b dev
 $ git add test.txt
+$ git add .
 $ git branch
 $ git status
 $ git commit -m "add test file"
 $ git push origin dev
 
-
+To update local repository from Gihub
+$ git remote add upstream https://github.com/Bella-Hub92/LearnGit.git
+$ git push upstream master
