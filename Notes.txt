@@ -10,7 +10,7 @@ $ git status
 $ git commit -m "add test file"
 $ git push origin dev
 
-To update local repository from Gihub
+To update local repository from Github
 $ git remote add upstream https://github.com/Bella-Hub92/LearnGit.git
 $ git push upstream master
 
